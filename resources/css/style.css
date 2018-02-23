@@ -3,8 +3,8 @@ html {
   }
 
 .body {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
   }
 
 header {
@@ -84,21 +84,71 @@ nav span {
   padding-bottom: 0.75rem;
 }
 
-.items .sitecontainer {
+.products {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.images {
+  border: black solid 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  width: 30%;
 }
 
 .images img {
-  border: 4px black solid;
   background-color: white;
-  justify-content: space-around;
+  height: 9rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  height: 9rem;
-  margin-top: 3rem;
+  width: auto;
 }
 
-.glasses {
-  flex: 1;
+.images span {
+  background-color: black;
+  color: white;
+  padding: 0.5rem 0 0.5rem 0;
+  font-family: Helvetica;
+  width: 100%;
+  text-align: center;
+  }
+
+.images .glasses {
+  height: 4rem;
+  padding-top: 80px;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+}
+
+h6 {
+  color: white;
+  font-family: Helvetica;
+  background-color: black;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+}
+
+.location {
+  width: 35%;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  height: 5rem;
+  background-color: black;
+  text-align: left center;
+  color: white;
+  font-family: Helvetica;
+  width: 100%;
 }
