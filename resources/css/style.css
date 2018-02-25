@@ -39,6 +39,12 @@ header span {
   align-items: center;
 }
 
+@media only screen and (max-width: 420px) {
+  .banner {
+    height: 15rem;
+  }
+}
+
 .sitecontainer {
   width: 960px;
   margin: 0 auto;
@@ -55,16 +61,38 @@ header span {
   margin-top: 9rem;
 }
 
+@media only screen and (max-width: 420px) {
+  .newsbox {
+    margin-top: 10rem;
+
+  }
+}
+
 .newsbox h6 {
   font-size: 1rem;
   font-weight: bold;
   padding-bottom: 0.25rem
+  text-align: left;
+}
+
+@media only screen and (max-width: 420px) {
+  .newsbox h6 {
+    font-size: 0.77rem;
+    padding-top: 1rem;
+  }
 }
 
 .newsbox h1 {
   font-size: 2rem;
   font-weight: bold;
   padding-top: 0.25rem;
+}
+
+@media only screen and (max-width: 420px) {
+  .newsbox h1 {
+    padding-left: 2rem;
+    font-size: 1rem;
+  }
 }
 
 nav {
@@ -84,6 +112,12 @@ nav span {
   padding-bottom: 0.75rem;
 }
 
+@media only screen and (max-width: 420px) {
+  span {
+    display: none;
+  }
+}
+
 .products {
   display: flex;
   justify-content: space-between;
@@ -99,6 +133,29 @@ nav span {
   margin-top: 3rem;
   margin-bottom: 3rem;
   width: 30%;
+}
+
+@media only screen and (max-width: 960px) {
+  .images {
+    width: 47%;
+  }
+  .extra {
+    display: none;
+  }
+
+  .sitecontainer {
+    width: 100%;
+  }
+
+}
+
+@media only screen and (max-width: 420px) {
+  .images {
+    width: 90%
+  }
+  .extras {
+    display: none;
+  }
 }
 
 .images img {
